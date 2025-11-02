@@ -1,8 +1,11 @@
 import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import OrderModal from '../components/OrderModal';
 
 function Cart() {
   const { cartItems, removeFromCart, updateQuantity, getTotalPrice, clearCart } = useCart();
+  const [isOrderModalOpen, setIsOrderModalOpen] = useState(false);
 
   if (cartItems.length === 0) {
     return (
@@ -110,7 +113,10 @@ function Cart() {
                 </div>
               </div>
 
-              <button className="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700 active:scale-95 transition-all duration-200 font-medium mb-3">
+              <button 
+                onClick={() => setIsOrderModalOpen(true)}
+                className="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700 active:scale-95 transition-all duration-200 font-medium mb-3"
+              >
                 Order Now
               </button>
 
@@ -131,6 +137,12 @@ function Cart() {
           </div>
         </div>
       </div>
+
+      {/* Order Modal */}
+      <OrderModal 
+        isOpen={isOrderModalOpen} 
+        onClose={() => setIsOrderModalOpen(false)} 
+      />
     </div>
   );
 }
