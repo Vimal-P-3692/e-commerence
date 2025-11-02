@@ -1,44 +1,65 @@
 [
   {
     "id": 1,
-    "name": "Wireless Headphones",
-    "description": "Premium noise-canceling headphones",
-    "price": 8299,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop"
+    "name": "Basmati Rice",
+    "description": "Premium quality basmati rice - 5kg",
+    "price": 450,
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500&h=500&fit=crop"
   },
   {
     "id": 2,
-    "name": "Smart Watch",
-    "description": "Fitness tracker with heart rate monitor",
-    "price": 16599,
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop"
+    "name": "Fresh Vegetables",
+    "description": "Mixed fresh vegetables - 2kg pack",
+    "price": 180,
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=500&h=500&fit=crop"
   },
   {
     "id": 3,
-    "name": "Laptop",
-    "description": "High-performance laptop for professionals",
-    "price": 107999,
-    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop"
+    "name": "Fresh Milk",
+    "description": "Farm fresh full cream milk - 1L",
+    "price": 60,
+    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=500&h=500&fit=crop"
   },
   {
     "id": 4,
-    "name": "Camera",
-    "description": "Professional DSLR camera",
-    "price": 74799,
-    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&h=500&fit=crop"
+    "name": "Fresh Fruits",
+    "description": "Seasonal fresh fruits - 1kg mix",
+    "price": 250,
+    "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=500&h=500&fit=crop"
   },
   {
     "id": 5,
-    "name": "Smartphone",
-    "description": "Latest flagship smartphone",
-    "price": 66499,
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop"
+    "name": "Cooking Oil",
+    "description": "Refined sunflower oil - 1L",
+    "price": 150,
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=500&h=500&fit=crop"
   },
   {
     "id": 6,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console",
-    "price": 41599,
-    "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=500&h=500&fit=crop"
+    "name": "Wheat Flour",
+    "description": "Whole wheat flour - 5kg pack",
+    "price": 280,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&h=500&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "Eggs",
+    "description": "Farm fresh eggs - 12 pieces",
+    "price": 84,
+    "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=500&h=500&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Tea Powder",
+    "description": "Premium tea powder - 500g",
+    "price": 180,
+    "image": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=500&h=500&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Bread",
+    "description": "Fresh whole wheat bread",
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&h=500&fit=crop"
   }
 ]
