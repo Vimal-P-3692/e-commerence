@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
-import AddProductModal from './AddProductModal';
 
 function Header() {
   const { cartItems } = useCart();
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   return (
@@ -64,15 +62,6 @@ function Header() {
                   </Link>
                 </li>
               </ul>
-              
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="bg-white text-purple-600 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 active:scale-95 transition-all duration-200 flex items-center gap-2"
-              >
-                <span className="text-xl">+</span>
-                <span className="hidden xl:inline">Add Product</span>
-                <span className="xl:hidden">Add</span>
-              </button>
             </div>
           </div>
 
@@ -123,11 +112,6 @@ function Header() {
           )}
         </nav>
       </header>
-
-      <AddProductModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      />
     </>
   );
 }
